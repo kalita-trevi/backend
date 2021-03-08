@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/server"
-
   },
   "repository": {
     "type": "git",
@@ -16,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kalita-trevi/backend/issues"
   },
-  "homepage": "https://github.com/kalita-trevi/backend#readme"
+  "homepage": "https://github.com/kalita-trevi/backend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
