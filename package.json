@@ -4,7 +4,7 @@
   "description": "primeiro projeto",
   "main": "index.js",
   "scripts": {
-    "start": "node src/server"
+    "start": "nodemon src/server"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/kalita-trevi/backend#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
